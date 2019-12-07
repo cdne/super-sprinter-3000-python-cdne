@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body style="text-align: left">
+    <h1>Update User Story</h1>
+    <form action = "{{url_for('route_update', id=current_data['id'])}}" method="post">
+        <label>Story Title:</label><br>
+        <input type="text" name="title" value="{{current_data['title']}}"  minlength="5" required><br><br>
+
+        <label>User Story:</label><br>
+        <textarea name="user_story" cols = "30" rows="5" required>{{' '.join(current_data['user_story'].split('<br>'))}}</textarea><br><br>
+
+        <label>Acceptance Criteria:</label><br>
+        <textarea name="acceptance_criteria" cols = "30" rows="5" required>{{' '.join(current_data['acceptance_criteria'].split('<br>'))}}</textarea><br><br>
+        <label>Business Value:</label><br>
+
+        <input name="business_value" type="number" value="{{current_data['business_value']}}" min="100" max="1500" step="100" required><br><br>
+        <label>Estimation:</label><br>
+
+        <input name="estimation" type="number" value="{{current_data['estimation'] + 'h'}}" min="0.5" max="40" step="0.5" required><br><br>
+
+        <label>Status:</label><br>
+        <select name="status"><br>
+            <option value="planning" >planning</option>
+            <option value="to do" >done</option>
+            <option value="in progress" >in progress</option>
+            <option value="review" >planning</option>
+            <option value="done" >done</option>
+        </select><br><br>
+
+        <input type="submit" value="Update User Story">
+    </form>
+</body>
+</html>
