@@ -1,36 +1,35 @@
 id,title,user_story,acceptance_criteria,business_value,estimation,status
-1,"Another,;?-| User Story","As a User Story,
-<br>I would like to be saved in the database
-<br>So users can see me","When I write things here
-<br>It should be saved",1400 point,7.5h,planning
-2,asdasdsadsa,1231,34322,100 point,1h,planning
-3,asdasd,asd,d,100 point,0.5h,planning
-4,"Another,;?-| User Story","As a User Story,
-<br>I would like to be saved in the database
-<br>So users can see me","When I write things here
-<br>It should be saved",1400 point,7.5h,planning
-5,"Another,;?-| User Story","As a User Story,
-<br>I would like to be saved in the database
-<br>So users can see me","When I write things here
-<br>It should be saved",1400 point,7.5h,planning
+1,List all User Stories,"As a User,<br>I want to see all the previously saved User stories,<br>So I get an overview of all requirements<br>","Given that there are any number ({0..n}) of saved User Stories,<br>When I open the website (`/`),<br>Then ensure I see a table with all the stored data",1000,2,in progress
+2,List all User Stories,"As a User,I want to see all the previously saved User stories,So I get an overview of all requirements","Given that there are any number ({0..n}) of saved User Stories,When I open the website (`/`),Then ensure I see a table with all the stored data",1000 point,0.5h,planning
+3,Update existing User Stories,"As a User,<br>I want to be able to change details of an existing User Story,<br>So that I can keep them up-to-date with the current info.","When I open the website (`/`),<br>And I click the title of a User Story,<br>Then ensure I see a form prefilled with the details of the User Story,<br>And when I submit the changed data, ensure it gets save,<br>And ensure it overwrites the previous details, not creating a new User Story.",700,6,planning
+4,1231d,"sadsad
+<br>
+<br>asd
+<br>asd","sadsad
+<br>
+<br>asd
+<br>asd",100 point,0.5h,planning
+5,1231dd,"asda<br>as<br>da<br>d<br><br>asdasd","adasasd<br>ad<br>as<br>d",100 point,0.5h,planning
+5,1231d,"adsa
+<br>ad
+<br>sa
+<br>asd
+<br>ds
+<br>","asd
+<br>a
+<br>ds
+<br>das
+<br>",100 point,0.5h,planning
 6,"Another,;?-| User Story","As a User Story,
 <br>I would like to be saved in the database
 <br>So users can see me","When I write things here
 <br>It should be saved",1400 point,7.5h,planning
-7,"Another,;?-| User Story","As a User Story,
+7,adsadd,asd123213,adasasdaa,100 point,0.5h,planning
+8,"Another,;?-| User Story","As a User Story,
 <br>I would like to be saved in the database
 <br>So users can see me","When I write things here
 <br>It should be saved",1400 point,7.5h,planning
-8,11132131232,"1313231313
-<br>123","1231231
-<br>133",100 point,0.5h,planning
-9,11132131232,"1313231313
-<br>123","1231231
-<br>133",100 point,0.5h,planning
-10,2131413123,"123123123
-<br>123","123213213
-<br>13",100 point,0.5h,planning
-11,2131413123,"123123123
-<br>123","123213213
-<br>13",100 point,0.5h,planning
-12,123123123,"123123<br>1231311","12313<br>12311",100 point,0.5h,planning
+10,23331,1,1,500 point,2h,planning
+10,"Another,;?-| User Story","As a User Story,<br>I would like to be saved in the database<br>So users can see me","When I write things here<br>It should be saved",1400 point,7.5h,planning
+11,sdasd,"asdsadsa<br>asd<br>ad<br>","asdasda<br>asd<br>as<br>ads<br>",300 point,40h,planning
+12,asdasd,"asdsad<br>asd<br>as<br>da<br>sda<br>sd<br>sads<br>dsd<br>sda<br>sda<br>ads<br>sda<br>sd<br>sda<br>","asdsad<br>asd<br>as<br>da<br>sda<br>sd<br>sads<br>dsd<br>sda<br>sda<br>ads<br>sda<br>sd<br>sda<br>",100 point,0.5h,planning

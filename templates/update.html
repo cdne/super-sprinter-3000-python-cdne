@@ -11,10 +11,10 @@
         <input type="text" name="title" value="{{current_data['title']}}"  minlength="5" required><br><br>
 
         <label>User Story:</label><br>
-        <textarea name="user_story" cols = "30" rows="5" required>{{' '.join(current_data['user_story'].split('<br>'))}}</textarea><br><br>
+        <textarea name="user_story" cols = "30" rows="5" required>{{''.join(current_data['user_story'].split('<br>'))}}</textarea><br><br>
 
         <label>Acceptance Criteria:</label><br>
-        <textarea name="acceptance_criteria" cols = "30" rows="5" required>{{' '.join(current_data['acceptance_criteria'].split('<br>'))}}</textarea><br><br>
+        <textarea name="acceptance_criteria" cols = "30" rows="5" required>{{''.join(current_data['acceptance_criteria'].split('<br>'))}}</textarea><br><br>
         <label>Business Value:</label><br>
 
         <input name="business_value" type="number" value="{{current_data['business_value']}}" min="100" max="1500" step="100" required><br><br>

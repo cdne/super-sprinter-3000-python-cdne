@@ -25,5 +25,4 @@ def write_csv(file_name, data):
         writer = csv.DictWriter(csvfile, fieldnames=DATA_HEADER)
         writer.writeheader()
         for story in data:
-            print(story)
             writer.writerow(story)
